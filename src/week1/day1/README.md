@@ -17,8 +17,9 @@ P(A|B) = P(A ∩ B) / P(B)
 
 Example:
 
-    - The probability of somehone having a cough is around 5%, but when this person is sick, the probabilities rise to 75%, and it would be epxressed as
-      P(cough | sick) = 75%
+'''
+The probability of somehone having a cough is around 5%, but when this person is sick, the probabilities rise to 75%, and it would be epxressed as
+P(cough | sick) = 75%
 
 Now, based on other sources of data. I got a different, not that formal definition that makes sense also. Other way to see conditional probabilities
 is like, update the original probability with new information. for example, if we know that the probabilties of rain on any day of the next week is 23%,
@@ -32,4 +33,7 @@ that the outcome is and odd number, i.e., A = { 1, 3, 5}. It means we want to kn
 extra information we know that the outcome will be a number less or equal to 3, B = {1, 2, 3}. What is then the probabilty of get an odd number?
 
 ```
-P( {1 ,3 , 5} | {1, 2,  3}) = P( {1,3,5} ∩ {1,2,3} ) / P(1,2,3) = P {1,3) / P {1,2,3) = 2 / 3 = 0.666    
+P({1, 3, 5} | {1, 2, 3}) = P(A ∩ B) / P(B)
+P({1, 3, 5} ∩ {1, 2, 3}) / P(1, 2, 3)
+P {1, 3) / P {1, 2, 3) 
+2 / 3 = 0.666 # 2 is the number of options that I have, and 3 is the universe of possible cases
