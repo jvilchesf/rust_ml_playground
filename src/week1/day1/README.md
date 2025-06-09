@@ -17,7 +17,7 @@ P(A|B) = P(A ∩ B) / P(B)
 
 Example:
 
-'''
+```
 The probability of somehone having a cough is around 5%, but when this person is sick, the probabilities rise to 75%, and it would be epxressed as
 P(cough | sick) = 75%
 
@@ -37,3 +37,9 @@ P({1, 3, 5} | {1, 2, 3}) = P(A ∩ B) / P(B)
 P({1, 3, 5} ∩ {1, 2, 3}) / P(1, 2, 3)
 P {1, 3) / P {1, 2, 3) 
 2 / 3 = 0.666 # 2 is the number of options that I have, and 3 is the universe of possible cases
+
+Here is the thing, because we kno that B has ocurred, every outcome that is outside B should be discarded.
+Thus, our sample space is reduced to the set B. Now the only way that A can happen is when the outcome 
+belongs to the set A ∩ B.
+
+![Conditional probability graphically](https://www.probabilitycourse.com/images/chapter1/conditional_b.png)
