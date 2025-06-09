@@ -43,3 +43,26 @@ Thus, our sample space is reduced to the set B. Now the only way that A can happ
 belongs to the set A ∩ B.
 
 ![Conditional probability graphically](https://www.probabilitycourse.com/images/chapter1/conditional_b.png)
+
+
+Example:
+
+I roll a fair die twice and obtain two numbers X1= result of the first roll and X2=result of the second roll. Given that I know X1+X2 = 7, what is the 
+probability that X1=4 or X2=4?
+
+```
+P(x1 = 4 or x2 = 4 | x1 + x2 = 7) = P( A  ∩  B) / P(B)
+# First calculate the probabilty of just A happening, I've considered all cases where 4 happen in eithere dice a or b.
+P(A) =(4, 1), (4, 2), (4, 3), (4, 4), (4, 5), (4, 6), (1, 4), (2, 4), (3, 4), (5, 4), (6, 4)
+# Calculate the probabily of the B cases happening, when sum of both dices rolled is 7.
+P(B) = (1, 6), (2, 5), (3, 4), (4, 3), (5, 2), (6, 1)
+# Intersect both probabities
+P(A ∩ B) = (3, 4) , (4,3) = 2 / 36
+# count how many cases I can get 7 rolling both dices
+P(B) = 6 / 36 
+
+P(A ∩ B) / P(B) = (2 / 36) / (6 / 36)  
+(1 / 18) / (1 / 6) = 6 / 18 = 1 / 3 = 0.3333%
+```
+
+
