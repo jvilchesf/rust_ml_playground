@@ -20,7 +20,7 @@ Example:
 ```
 The probability of somehone having a cough is around 5%, but when this person is sick, the probabilities rise to 75%, and it would be epxressed as
 P(cough | sick) = 75%
-
+```
 Now, based on other sources of data. I got a different, not that formal definition that makes sense also. Other way to see conditional probabilities
 is like, update the original probability with new information. for example, if we know that the probabilties of rain on any day of the next week is 23%,
 the on Monday maybe I'd say that probabilities of Wednesday of rain are 23%, but what happen if now in Wednesday the sky is very cloudly? I could 
@@ -37,7 +37,7 @@ P({1, 3, 5} | {1, 2, 3}) = P(A ∩ B) / P(B)
 P({1, 3, 5} ∩ {1, 2, 3}) / P(1, 2, 3)
 P {1, 3) / P {1, 2, 3) 
 2 / 3 = 0.666 # 2 is the number of options that I have, and 3 is the universe of possible cases
-
+```
 Here is the thing, because we kno that B has ocurred, every outcome that is outside B should be discarded.
 Thus, our sample space is reduced to the set B. Now the only way that A can happen is when the outcome 
 belongs to the set A ∩ B.
