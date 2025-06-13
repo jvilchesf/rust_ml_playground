@@ -1,0 +1,1 @@
+/Users/josemiguelvilchesfierro/Documents/git/rust_ml_playground/week1/day1/target/debug/day1: /Users/josemiguelvilchesfierro/Documents/git/rust_ml_playground/week1/day1/src/main.rs /Users/josemiguelvilchesfierro/Documents/git/rust_ml_playground/week1/day1/src/operations.rs
