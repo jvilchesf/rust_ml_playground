@@ -37,41 +37,9 @@ if (severity = "critical" & explitable != "No exploitablr" & update_availabe = f
 
 I still not sure how this would work. If I define [severity, cvss_score, exploitability, update_available] as my evidence, on each structure or device I'll have several vulnerabilities, each of them with their own evidence/ vulnerabilities. Would evidence 
 then a different universe of cases to see? for example, thinking on a matrix of compromised and not compromised cases, each of then will have an array of vulnerabilities, each time I want to evaluate a new case I would need to count how many devices share this same "evidence characteristics
-to calculate anything new. What I mean is each time I'm trying to figured out the probability of a compromised devices based on tis own characteristics, I should look into the array of vulnerabilities of each device and see if they have the same evidence to calculate for example
+to calculate anything new. 
+
+What I mean is each time I'm trying to figured out the probability of a compromised devices based on tis own characteristics, I should look into the array of vulnerabilities of each device and see if they have the same evidence to calculate for example
 P(E | H) or P( E), at the end P(E) is a dynamic value, while P(H) is static. I'd just define one time the universe of compromised and not compromised, and after I'll be looking for the evidence in this two groups.
 
-                                                                
-device1: [{
-            "severity": "ciritcal",
-            "cvss_score": "3-5",
-            "exploitability: "noExploit",
-            "update_available": "true",
-        },
-        {    "severity": "ciritcal",
-            "cvss_score": "3-5",
-            "exploitability: "noExploit",
-            "update_available": "true",
-        },
-        {
-            "severity": "ciritcal",
-            "cvss_score": "3-5",
-            "exploitability: "noExploit",
-            "update_available": "true",
-        }]
-device2: [{
-            "severity": "ciritcal",
-            "cvss_score": "3-5",
-            "exploitability: "noExploit",
-            "update_available": "true",
-        },
-            "severity": "ciritcal",
-            "cvss_score": "3-5",
-            "exploitability: "noExploit",
-            "update_available": "true",
-        },
-            "severity": "ciritcal",
-            "cvss_score": "3-5",
-            "exploitability: "noExploit",
-            "update_available": "true",
-        }]
 
